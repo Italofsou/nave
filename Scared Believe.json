@@ -81,6 +81,69 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nave_bem.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "nave_bem.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nave_bem_2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "nave_bem_2.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nave_mau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nave_mau.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "meteoro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteoro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spaso_sideral.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "spaso_sideral.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nave_mau2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nave_mau2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nave_alien.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "nave_alien.webp",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -112,7 +175,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6455105703311482,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -122,15 +185,100 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 251,
+          "height": 203,
           "keepRatio": true,
           "layer": "",
-          "name": "nave",
-          "persistentUuid": "0f9bbc5d-c022-475f-b622-cc486a55a3cf",
-          "width": 244,
-          "x": 439,
-          "y": 246,
+          "name": "nave_bem",
+          "persistentUuid": "ca7519e6-d4b8-4a35-9ca2-578115e52a88",
+          "width": 262,
+          "x": 508,
+          "y": 511,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meteoro",
+          "persistentUuid": "32e5e38e-160a-4f94-8a80-f58f31e927dc",
+          "width": 98,
+          "x": 756,
+          "y": 95,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meteoro",
+          "persistentUuid": "afb018d0-1df4-46bc-b2b8-747592e08c91",
+          "width": 98,
+          "x": 439,
+          "y": 29,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meteoro",
+          "persistentUuid": "e2370899-ea17-4592-8ecc-d796d37b9482",
+          "width": 98,
+          "x": 37,
+          "y": 41,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meteoro",
+          "persistentUuid": "4bb976f1-5d67-4597-a6e0-e49284db9b70",
+          "width": 98,
+          "x": 1072,
+          "y": 23,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meteoro",
+          "persistentUuid": "56c0dbdd-4d22-4a92-8862-42e8ffe5a641",
+          "width": 98,
+          "x": 325,
+          "y": 173,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -139,15 +287,66 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 516,
+          "height": 5281,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "79043b89-178a-4487-a871-c5e5e202f83d",
-          "width": 512,
-          "x": 59,
-          "y": -94,
-          "zOrder": 2,
+          "name": "spaso_sideral",
+          "persistentUuid": "7106ab23-3726-4aed-9155-afa08382ad4f",
+          "width": 9389,
+          "x": -4235,
+          "y": -2131,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "aliem",
+          "persistentUuid": "eb730f10-63e7-4730-899d-7b74dba1dbde",
+          "width": 142,
+          "x": 143,
+          "y": 233,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "aliem",
+          "persistentUuid": "36eed17d-f2f6-4044-8512-c8afc62586da",
+          "width": 142,
+          "x": 538,
+          "y": 132,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "aliem",
+          "persistentUuid": "e74599d2-afd5-4ed5-9688-261a03ce7e69",
+          "width": 142,
+          "x": 910,
+          "y": 179,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -157,7 +356,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "nave",
+          "name": "nave_bem",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -165,17 +364,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "nave_bem_2.webp",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -191,20 +389,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 20,
-                            "y": 1
+                            "x": 133,
+                            "y": 64
                           },
                           {
-                            "x": 44,
-                            "y": 1
+                            "x": 822,
+                            "y": 64
                           },
                           {
-                            "x": 44,
-                            "y": 61
+                            "x": 822,
+                            "y": 930
                           },
                           {
-                            "x": 20,
-                            "y": 61
+                            "x": 133,
+                            "y": 930
                           }
                         ]
                       ]
@@ -218,7 +416,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "meteoro",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -226,17 +424,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "meteoro.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -252,20 +449,140 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 17,
-                            "y": 14
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 47,
-                            "y": 14
+                            "x": 512,
+                            "y": 0
                           },
                           {
-                            "x": 47,
-                            "y": 51
+                            "x": 512,
+                            "y": 512
                           },
                           {
-                            "x": 17,
-                            "y": 51
+                            "x": 0,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "spaso_sideral",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "spaso_sideral.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1200,
+                            "y": 0
+                          },
+                          {
+                            "x": 1200,
+                            "y": 675
+                          },
+                          {
+                            "x": 0,
+                            "y": 675
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "aliem",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "nave_alien.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1899,
+                            "y": 0
+                          },
+                          {
+                            "x": 1899,
+                            "y": 980
+                          },
+                          {
+                            "x": 0,
+                            "y": 980
                           }
                         ]
                       ]
@@ -281,10 +598,16 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "nave"
+            "objectName": "nave_bem"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "meteoro"
+          },
+          {
+            "objectName": "spaso_sideral"
+          },
+          {
+            "objectName": "aliem"
           }
         ]
       },
