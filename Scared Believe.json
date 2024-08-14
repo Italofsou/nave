@@ -144,6 +144,24 @@
         "name": "nave_alien.webp",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nave_bem_2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nave_bem_2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -158,8 +176,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "jogo",
+      "name": "jogo",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -175,7 +193,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311482,
+        "zoomFactor": 0.6040838749988879,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -185,100 +203,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 203,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "nave_bem",
           "persistentUuid": "ca7519e6-d4b8-4a35-9ca2-578115e52a88",
-          "width": 262,
-          "x": 508,
-          "y": 511,
+          "width": 105,
+          "x": 546,
+          "y": 605,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 310,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "meteoro",
-          "persistentUuid": "32e5e38e-160a-4f94-8a80-f58f31e927dc",
-          "width": 98,
-          "x": 756,
-          "y": 95,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 310,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "meteoro",
-          "persistentUuid": "afb018d0-1df4-46bc-b2b8-747592e08c91",
-          "width": 98,
-          "x": 439,
-          "y": 29,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 310,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "meteoro",
-          "persistentUuid": "e2370899-ea17-4592-8ecc-d796d37b9482",
-          "width": 98,
-          "x": 37,
-          "y": 41,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 310,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "meteoro",
-          "persistentUuid": "4bb976f1-5d67-4597-a6e0-e49284db9b70",
-          "width": 98,
-          "x": 1072,
-          "y": 23,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 310,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "meteoro",
-          "persistentUuid": "56c0dbdd-4d22-4a92-8862-42e8ffe5a641",
-          "width": 98,
-          "x": 325,
-          "y": 173,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -293,8 +226,8 @@
           "name": "spaso_sideral",
           "persistentUuid": "7106ab23-3726-4aed-9155-afa08382ad4f",
           "width": 9389,
-          "x": -4235,
-          "y": -2131,
+          "x": -4272,
+          "y": -2102,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -304,15 +237,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 99,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "aliem",
-          "persistentUuid": "eb730f10-63e7-4730-899d-7b74dba1dbde",
-          "width": 142,
-          "x": 143,
-          "y": 233,
-          "zOrder": 3,
+          "name": "protecao",
+          "persistentUuid": "e7d5d276-6195-46f7-a39b-43898ec0bfde",
+          "width": 1287,
+          "x": 0,
+          "y": 721,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -321,32 +254,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 99,
+          "height": 107,
           "keepRatio": true,
           "layer": "",
-          "name": "aliem",
-          "persistentUuid": "36eed17d-f2f6-4044-8512-c8afc62586da",
-          "width": 142,
-          "x": 538,
-          "y": 132,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 99,
-          "keepRatio": true,
-          "layer": "",
-          "name": "aliem",
-          "persistentUuid": "e74599d2-afd5-4ed5-9688-261a03ce7e69",
-          "width": 142,
-          "x": 910,
-          "y": 179,
-          "zOrder": 3,
+          "name": "TextoVidas",
+          "persistentUuid": "94dcb398-6db1-4082-9c60-baec45636556",
+          "width": 180,
+          "x": 3,
+          "y": -6,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -359,21 +275,45 @@
           "name": "nave_bem",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "vida",
+              "type": "number",
+              "value": 5
+            }
+          ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "name": "TopDownMovement",
+              "rotateObject": false,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "TopDown"
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "nave_bem_2",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "nave_bem_2.webp",
+                      "image": "nave_bem_2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -389,20 +329,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 133,
-                            "y": 64
+                            "x": 2,
+                            "y": 2
                           },
                           {
-                            "x": 822,
-                            "y": 64
+                            "x": 690,
+                            "y": 2
                           },
                           {
-                            "x": 822,
-                            "y": 930
+                            "x": 690,
+                            "y": 868
                           },
                           {
-                            "x": 133,
-                            "y": 930
+                            "x": 2,
+                            "y": 868
                           }
                         ]
                       ]
@@ -592,11 +532,116 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "protecao",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoVidas",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "TextoVidas"
+          },
           {
             "objectName": "nave_bem"
           },
@@ -608,10 +653,327 @@
           },
           {
             "objectName": "aliem"
+          },
+          {
+            "objectName": "protecao"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMonster\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMeteoro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMonster\"",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "aliem",
+                "RandomInRange(80,1100)",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "aliem",
+                "Scale",
+                "=",
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "aliem",
+                "0",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMonster\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMeteoro\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "meteoro",
+                "RandomInRange(80,1200)",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "meteoro",
+                "0",
+                "80",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "meteoro",
+                "Scale",
+                "=",
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawnMeteoro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "aliem",
+                "protecao",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "aliem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "nave_bem",
+                "vida",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "meteoro",
+                "protecao",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "meteoro",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextoVidas",
+                "Text",
+                "=",
+                "\"vidas: \"+nave_bem.vida"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "nave_bem",
+                "aliem",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "nave_bem",
+                "vida",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "aliem",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "meteoro",
+                "nave_bem",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "nave_bem",
+                "vida",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -682,6 +1044,14 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
